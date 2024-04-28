@@ -21,7 +21,7 @@ function Home() {
           gap="medium"
         >
           <div>
-            Content goes here
+            Hello World!
           </div>
         </Box>
       </div>

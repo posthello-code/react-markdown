@@ -21,7 +21,7 @@ export class NavBar extends Component {
       <div id="nav-bar">
         <Header align="center" flex={false} justify="center" gap="5px" wrap={true}>
           <div className='navLink'>
-            <GrommetButtonNav icon={<Home />} text="Navigation links up here" path="/"></GrommetButtonNav>
+            {/*<GrommetButtonNav icon={<Home />} text="Home" path="/"></GrommetButtonNav>*/}
           </div>
         </Header>
       </div>
