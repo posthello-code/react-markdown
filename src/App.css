@@ -21,12 +21,17 @@
   }
 }
 
+.ReactMarkdown {
+  text-align: left;
+}
+
 .Box {
   align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 10px;
+  text-align: left;
 }
 
 #avatar-image {
