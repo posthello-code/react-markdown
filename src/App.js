@@ -1,7 +1,7 @@
 import "./App.css";
 import { NavBar } from "./NavBar";
 import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom";
-import { Grommet, Main } from "grommet";
+import { Grommet } from "grommet";
 import Home from "./content/Home";
 import Error from "./content/Error";
 
