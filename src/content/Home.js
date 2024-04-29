@@ -17,7 +17,7 @@ function Home() {
 
   return (
     <Main>
-      <Box background="grey" fill round gap="10px" pad="10px">
+      <Box background="#4f5b65" fill round gap="10px" pad="10px">
         <ReactMarkdown children={content} />
       </Box>
     </Main>
