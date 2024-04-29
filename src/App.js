@@ -1,26 +1,20 @@
 import "./App.css";
 import { NavBar } from "./NavBar";
 import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom";
-import { Grommet } from "grommet";
+import { Grommet, Main } from "grommet";
 import Home from "./content/Home";
 import Error from "./content/Error";
 
 function Layout() {
   return (
-    <div>
-      <title>{(document.title = "Alex Jensen")}</title>
-      <div className="App">
-        <div id="nav-header">
-          <Grommet id="grommet" align="center">
-            <NavBar />
-          </Grommet>
-        </div>
-        <div>
-          {/* Render the content for current page based on Browser router state below*/}
-          <Outlet></Outlet>
-        </div>
-      </div>
-    </div>
+    <>
+      <Grommet id="grommet" align="center">
+        {/* NavBar component currently hidden */}
+        <NavBar />
+      </Grommet>
+      {/* Render the content for current page based on Browser router state below*/}
+      <Outlet></Outlet>
+    </>
   );
 }
 

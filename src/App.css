@@ -43,6 +43,8 @@
 
 #nav-bar {
   padding-top: 10px;
+  background-color: rgb(91, 126, 157);
+
 }
 
 a:link {
@@ -57,10 +59,16 @@ a:visited {
   text-decoration: none;
 }
 
+#root {
+  height:100%;
+  background-color: rgb(43, 66, 66);
+}
+
 body {
+  height: 100%;
   text-align: left;
   font-size: medium;
-  color: aliceblue;
+  color: rgb(41, 76, 107);
 }
 
 b {
@@ -77,6 +85,7 @@ div.navLink {
 }
 
 h1 {
+  color: #a2a9b8;
   font-size: x-large;
   font-style: bold;
   font-weight: 900;
@@ -91,11 +100,21 @@ h2 {
 }
 
 html {
+  height: 100%;
   align-items: center;
-  background-color: #282c34;
+  background-color: #a2a9b8;
   color: grey;
   font-size: calc(10px + 2vmin);
   min-height: 100vh;
+}
+
+main {
+  background-color: rgb(91, 126, 157);
+  padding: 10px;
+}
+
+p {
+  color: azure;
 }
 
 table {
